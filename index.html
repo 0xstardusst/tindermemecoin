@@ -1,58 +1,151 @@
-!DOCTYPE html
-html lang=en
-head
-    meta charset=UTF-8
-    meta name=viewport content=width=device-width, initial-scale=1.0
-    titleTinderCoin - Swipe, Match, Earn!title
-    link rel=stylesheet href=styles.css
-head
-body
-    header class=header
-        div class=container
-            h1TinderCoinh1
-            pSwipe. Match. Earn. Your love for crypto starts here!p
-            a href=#about class=cta-buttonLearn Morea
-        div
-    header
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TinderCoin - Swipe, Match, Earn! Your love for crypto starts here!">
+    <title>TinderCoin - Swipe, Match, Earn!</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #ffe6e9;
+            color: #333;
+        }
 
-    main
-        section id=about class=section
-            div class=container
-                h2About TinderCoinh2
-                pTinderCoin is a memecoin that combines love, humor, and crypto. Built to bring people together while earning rewards.p
-            div
-        section
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
 
-        section id=tokenomics class=section
-            div class=container
-                h2Tokenomicsh2
-                ul
-                    liTotal Supply 1,000,000,000 $TINDERli
-                    liDistribution 50% Community, 30% Marketing, 20% Teamli
-                    liReward System Earn $TINDER with every swipe!li
-                ul
-            div
-        section
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #ff4b5c, #ff8474);
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+        }
 
-        section id=roadmap class=section
-            div class=container
-                h2Roadmaph2
-                ol
-                    liQ1 2024 Launch the memecoinli
-                    liQ2 2024 Build partnerships and grow communityli
-                    liQ3 2024 Integrate TinderCoin rewards in dating appsli
-                ol
-            div
-        section
-    main
+        .header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
 
-    footer class=footer
-        div class=container
-            p&copy; 2024 TinderCoin. All Rights Reserved.p
-            a href=#Join Our Communitya
-        div
-    footer
+        .header p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
 
-    script src=script.jsscript
-body
-html
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #fff;
+            color: #ff4b5c;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .cta-button:hover {
+            background: #ff4b5c;
+            color: #fff;
+        }
+
+        /* Sections */
+        .section {
+            padding: 50px 20px;
+            background: #fff;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            color: #ff4b5c;
+        }
+
+        .section ul, .section ol {
+            list-style: none;
+            padding: 0;
+        }
+
+        .section li {
+            margin: 10px 0;
+        }
+
+        /* Footer */
+        .footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        .footer-link {
+            color: #ff4b5c;
+            text-decoration: none;
+        }
+
+        .footer-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Logo */
+        .logo {
+            max-width: 150px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="images/tindercoin-logo.png" alt="TinderCoin Logo" class="logo">
+            <h1>TinderCoin</h1>
+            <p>Swipe. Match. Earn. Your love for crypto starts here!</p>
+            <a href="#about" class="cta-button">Learn More</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About TinderCoin</h2>
+                <p>TinderCoin is a memecoin that combines love, humor, and crypto. Built to bring people together while earning rewards.</p>
+            </div>
+        </section>
+
+        <section id="tokenomics" class="section">
+            <div class="container">
+                <h2>Tokenomics</h2>
+                <ul>
+                    <li>Total Supply: 1,000,000,000 $TINDER</li>
+                    <li>Distribution: 50% Community, 30% Marketing, 20% Team</li>
+                    <li>Reward System: Earn $TINDER with every swipe!</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="adventures" class="section">
+            <div class="container">
+                <h2>Christine's Adventures</h2>
+                <p>Follow Christine's daily adventures with the Tinder app! Every day, a new image captures her exciting, romantic, and humorous moments in the world of TinderCoin.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 TinderCoin. All Rights Reserved.</p>
+            <a href="#" class="footer-link">Join Our Community</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
